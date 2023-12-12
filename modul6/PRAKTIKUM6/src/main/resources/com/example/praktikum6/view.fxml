@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktikum6.Main">
+   <children>
+      <TableView fx:id="tvMahasiswa" layoutX="25.0" layoutY="27.0" prefHeight="360.0" prefWidth="366.0">
+        <columns>
+          <TableColumn fx:id="tcNIM" prefWidth="183.20001220703125" text="NIM" />
+          <TableColumn fx:id="tcNama" prefWidth="180.79998779296875" text="Nama" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
